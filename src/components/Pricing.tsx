@@ -21,7 +21,7 @@ export function Pricing() {
           <Text fontSize="24" fontWeight="800">
             Premium Pro
           </Text>
-          <Heading as="h3" fontSize="60" mt="4">
+          <Heading as="h3" fontSize={["5xl", "5xl", "6xl"]} mt="4">
             $329
           </Heading>
           <Text fontSize="14" fontWeight="500" color="#171923" mt="2">

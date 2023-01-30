@@ -1,5 +1,5 @@
 //import './App.css'
-import { Box, Text, HStack, Icon } from "@chakra-ui/react"
+import { Box, Text, HStack,Stack, Icon } from "@chakra-ui/react"
 import {
   BsFillStarFill,
   BsBookmarkStarFill,
@@ -21,7 +21,7 @@ export const Feature = (props:any)=>{
 export function Features() {
   return (
     <Box maxW="1024px" m="auto" pt="32px" pb="8">
-      <HStack px="12" spacing="5">
+      <Stack px="12" spacing="5" direction={["column", "column", "row"]}>
         <Feature icon={BsFillStarFill}>30 days money back Guarantee</Feature>
         <Feature icon={BsBookmarkStarFill}>
           No setup fees 100% hassle-free
@@ -29,7 +29,7 @@ export function Features() {
         <Feature icon={BsClockHistory}>
           No Monthly subscription Pay once and for all
         </Feature>
-      </HStack>
+      </Stack>
     </Box>
   );
 }
