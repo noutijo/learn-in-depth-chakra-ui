@@ -5,17 +5,18 @@ import { BsCheckCircleFill } from "react-icons/bs"
 export const ListItem = (props:any)=>{
     const {children, ...rest } = props
     return (
-      <HStack as="li" spacing="5" {...rest}>
+      <HStack as="li" spacing="5" {...rest} alignItems="start">
         <Icon as={BsCheckCircleFill}  w="22px" h="22px" color="#5F3EBB"/>
-        <Text>{children}</Text>
+        <Text textAlign={["left","left","center"]}>{children}</Text>
       </HStack>
     )
 }
 
 export function Pricing() {
-  return (
+    return (
+    <Box mx="6">
     <Box maxW="994px" m="auto" mt="-270" borderRadius="12" overflow="hidden" boxShadow="lg">
-      <Flex bg="white">
+      <Flex bg="white" direction={["column", "column", "row"]}>
         <Box bg="#f0eafb" p="60px">
           <Text fontSize="24" fontWeight="800">
             Premium Pro
@@ -30,7 +31,7 @@ export function Pricing() {
             bg="#5F3EBB"
             color="white"
             size={"lg"}
-            w="282px"
+            w="100%"
             mt="6"
             _hover={{ backgrounColor: "#5F3EBB", color: "#F7FAFC" }}>
             Get Started
@@ -54,6 +55,7 @@ export function Pricing() {
           </Stack>
         </Box>
       </Flex>
+    </Box>
     </Box>
   )
 }
