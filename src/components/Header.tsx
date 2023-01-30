@@ -3,17 +3,17 @@ import { Box, Heading, Text } from "@chakra-ui/react"
 
 export function Header() {
   return (
-    <Box as="section" pb="112px">
+    <Box as="section" pb="28">
     <Box
-      color="#F7FAFC"
+      color="gray.300"
       bg="#120E19"
       pt="90px"
       pb="198px"
-      px="32px">
-      <Heading fontWeight={800} fontSize={"48px"}>
+      px="8">
+      <Heading fontWeight={"extrabold"} fontSize={"5xl"}>
         Simple price for your business
       </Heading>
-      <Text fontWeight={500} fontSize={"24px"} mt="16px">
+      <Text fontWeight={"medium"} fontSize={"2xl"} pt="4">
         Plans that are carefully crafted to suit your business.
       </Text>
     </Box>
