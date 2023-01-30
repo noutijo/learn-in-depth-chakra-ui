@@ -9,9 +9,9 @@ import {
 export const Feature = (props:any)=>{
     const {icon, children, ...rest } = props
     return (
-      <HStack spacing="24px" {...rest}>
-        <Icon as={icon} boxSize="28px" color="#5F3EBB" />
-        <Text textAlign="left" fontSize="14px" fontWeight="700">
+      <HStack spacing="6" {...rest}>
+        <Icon as={icon} boxSize="8" color="#5F3EBB" />
+        <Text textAlign="left" fontSize="sm" fontWeight="bold">
           {children}
         </Text>
       </HStack>
@@ -20,8 +20,8 @@ export const Feature = (props:any)=>{
 
 export function Features() {
   return (
-    <Box maxW="1024px" m="auto" pt="32px" pb="32px">
-      <HStack px="48px" spacing="18px">
+    <Box maxW="1024px" m="auto" pt="32px" pb="8">
+      <HStack px="12" spacing="5">
         <Feature icon={BsFillStarFill}>30 days money back Guarantee</Feature>
         <Feature icon={BsBookmarkStarFill}>
           No setup fees 100% hassle-free

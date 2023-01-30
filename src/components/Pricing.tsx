@@ -5,7 +5,7 @@ import { BsCheckCircleFill } from "react-icons/bs"
 export const ListItem = (props:any)=>{
     const {children, ...rest } = props
     return (
-      <HStack as="li" spacing="20px" {...rest}>
+      <HStack as="li" spacing="5" {...rest}>
         <Icon as={BsCheckCircleFill}  w="22px" h="22px" color="#5F3EBB"/>
         <Text>{children}</Text>
       </HStack>
@@ -14,16 +14,16 @@ export const ListItem = (props:any)=>{
 
 export function Pricing() {
   return (
-    <Box maxW="994px" m="auto" mt="-256" borderRadius="12px" overflow="hidden" boxShadow="lg">
+    <Box maxW="994px" m="auto" mt="-270" borderRadius="3" overflow="hidden" boxShadow="lg">
       <Flex bg="white">
         <Box bg="#f0eafb" p="60px">
-          <Text fontSize="24px" fontWeight="800">
+          <Text fontSize="24" fontWeight="800">
             Premium Pro
           </Text>
-          <Heading as="h3" fontSize="60px" mt="16px">
+          <Heading as="h3" fontSize="60" mt="4">
             $329
           </Heading>
-          <Text fontSize="18px" fontWeight="500" color="#171923" mt="8px">
+          <Text fontSize="14" fontWeight="500" color="#171923" mt="2">
             builed just once
           </Text>
           <Button
@@ -31,7 +31,7 @@ export function Pricing() {
             color="white"
             size={"lg"}
             w="282px"
-            mt="24px"
+            mt="6"
             _hover={{ backgrounColor: "#5F3EBB", color: "#F7FAFC" }}>
             Get Started
           </Button>
@@ -46,7 +46,7 @@ export function Pricing() {
             mt="8px">
             Acces these features when you get this pricing package busineess.
           </Text>
-          <Stack as="ul" spacing="20px" pt="24px">
+          <Stack as="ul" spacing="5" pt="6">
             <ListItem>International calling and messaging API</ListItem>
             <ListItem>Additional phone numbers</ListItem>
             <ListItem>Automated messages via Zapier</ListItem>
