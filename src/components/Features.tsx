@@ -10,7 +10,7 @@ export const Feature = (props:any)=>{
     const {icon, children, ...rest } = props
     return (
       <HStack spacing="6" {...rest}>
-        <Icon as={icon} boxSize="8" color="#5F3EBB" />
+        <Icon as={icon} boxSize={["6","6","8"]} color="#5F3EBB" />
         <Text textAlign="left" fontSize="sm" fontWeight="bold">
           {children}
         </Text>
