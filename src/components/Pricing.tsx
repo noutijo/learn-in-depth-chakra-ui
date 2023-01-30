@@ -6,7 +6,7 @@ export const ListItem = (props:any)=>{
     const {children, ...rest } = props
     return (
       <HStack as="li" spacing="20px" {...rest}>
-        <Icon as={BsCheckCircleFill}  w="22px" h="22px" color="purple"/>
+        <Icon as={BsCheckCircleFill}  w="22px" h="22px" color="#5F3EBB"/>
         <Text>{children}</Text>
       </HStack>
     );
@@ -27,12 +27,12 @@ export function Pricing() {
             builed just once
           </Text>
           <Button
-            bg="purple"
+            bg="#5F3EBB"
             color="white"
             size={"lg"}
             w="282px"
             mt="24px"
-            _hover={{ backgrounColor: "purple", color: "#F7FAFC" }}>
+            _hover={{ backgrounColor: "#5F3EBB", color: "#F7FAFC" }}>
             Get Started
           </Button>
         </Box>
