@@ -14,7 +14,7 @@ export const ListItem = (props:any)=>{
 
 export function Pricing() {
   return (
-    <Box maxW="994px" m="auto" mt="-270" borderRadius="3" overflow="hidden" boxShadow="lg">
+    <Box maxW="994px" m="auto" mt="-270" borderRadius="12" overflow="hidden" boxShadow="lg">
       <Flex bg="white">
         <Box bg="#f0eafb" p="60px">
           <Text fontSize="24" fontWeight="800">
