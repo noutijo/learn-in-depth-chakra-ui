@@ -1,5 +1,5 @@
 //import './App.css'
-import { Box, Heading, Text, Flex, Button, HStack,Stack, Icon } from "@chakra-ui/react"
+import { Box, Text, HStack, Icon } from "@chakra-ui/react"
 import {
   BsFillStarFill,
   BsBookmarkStarFill,

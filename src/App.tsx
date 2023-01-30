@@ -1,9 +1,8 @@
-//import './App.css'
-import "./App.css";
-import { Box, Flex, Stack, VStack, HStack } from "@chakra-ui/react";
-import { Header  } from "./components/Header";
-import { Pricing } from "./components/Pricing";
-import { Features } from "./components/Features";
+import "./App.css"
+import { Box } from "@chakra-ui/react"
+import { Header  } from "./components/Header"
+import { Pricing } from "./components/Pricing"
+import { Features } from "./components/Features"
 
 export default function App() {
   return (
@@ -14,6 +13,6 @@ export default function App() {
         <Features />  
       </Box>
     </div>
-  );
+  )
 }
 

@@ -1,5 +1,5 @@
 //import './App.css'
-import { Box, Heading, Text, Flex } from "@chakra-ui/react";
+import { Box, Heading, Text } from "@chakra-ui/react"
 
 export function Header() {
   return (
@@ -18,6 +18,6 @@ export function Header() {
       </Text>
     </Box>
     </Box>
-  );
+  )
 }
 

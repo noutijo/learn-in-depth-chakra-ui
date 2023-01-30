@@ -9,7 +9,7 @@ export const ListItem = (props:any)=>{
         <Icon as={BsCheckCircleFill}  w="22px" h="22px" color="#5F3EBB"/>
         <Text>{children}</Text>
       </HStack>
-    );
+    )
 }
 
 export function Pricing() {
@@ -55,5 +55,5 @@ export function Pricing() {
         </Box>
       </Flex>
     </Box>
-  );
+  )
 }
