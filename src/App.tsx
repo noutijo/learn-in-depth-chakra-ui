@@ -5,9 +5,8 @@ export default function App() {
   return (
     <div className="App">
       <Box>
-        yo
+        Learn 01
       </Box>
     </div>
   )
 }
-
