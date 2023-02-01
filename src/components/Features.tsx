@@ -4,7 +4,7 @@ import {
   BsFillStarFill,
   BsBookmarkStarFill,
   BsClockHistory,
-} from "react-icons/bs";
+} from "react-icons/bs"
 
 export const Feature = (props:any)=>{
     const {icon, children, ...rest } = props
@@ -15,7 +15,7 @@ export const Feature = (props:any)=>{
           {children}
         </Text>
       </HStack>
-    );
+    )
 }
 
 export function Features() {
@@ -31,5 +31,5 @@ export function Features() {
         </Feature>
       </Stack>
     </Box>
-  );
+  )
 }
