@@ -1,12 +1,14 @@
-import "./App.css"
-import { Box } from "@chakra-ui/react"
+import { Container, Flex } from "@chakra-ui/react"
+import Details from "./sections/details"
+import Cart from "./sections/cart"
 
 export default function App() {
   return (
-    <div className="App">
-      <Box>
-         Learn_01
-      </Box>
-    </div>
+      <Container maxW={"container.xl"} p={0}>
+        <Flex h={{base:"auto", md:"auto"}} py={[0, 10, 20]} direction={{base:"column-reverse", md:"row", lg:"row"}}>
+         <Details />
+         <Cart />
+        </Flex>
+      </Container>
   )
 }
