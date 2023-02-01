@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="App">
       <Box>
-        Learn 01
+        Learn_01
       </Box>
     </div>
   )
