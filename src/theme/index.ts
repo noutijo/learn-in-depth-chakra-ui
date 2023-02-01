@@ -1,4 +1,3 @@
-import { Checkbox } from '@chakra-ui/react';
 import { extendTheme, theme as base, withDefaultColorScheme, withDefaultVariant } from '@chakra-ui/react'
 import {mode} from "@chakra-ui/theme-tools"
 
